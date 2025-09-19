@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(10, 172, 236);
+    font-family: 'Space Mono', monospace;
+}
+
+.container {
+    padding: 20px;
+    width: 360px;
+    background: rgb(45, 6, 6);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-box {
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.search-box i {
+    color: aquamarine;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.search-box input {
+    all: unset;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+    word-spacing: -3px;
+}
+
+.user-details {
+    padding: 2px;
+    margin-top: 25px;
+}
+
+.img-box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    float: left;
+}
+
+.img-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.name {
+    position: relative;
+    left: 13px;
+    font-size: 13px;
+    color: white;
+}
+
+.username {
+    position: relative;
+    left: 13px;
+    font-size: 13px;
+    color: aqua;
+}
+
+.join-date {
+    position: relative;
+    left: 11px;
+    font-size: 13px;
+    color: #ccc7bf;
+    margin-top: 10px;
+}
+
+.bio {
+    position: relative;
+    margin-top: 32px;
+    color: #ccc7bf;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.user-profile {
+    padding: 2px;
+    height: 100px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 3px;
+    background: #3E96F4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile div {
+    width: 33%;
+    text-align: center;
+}
+
+.user-profile div span {
+    position: relative;
+    top: 14px;
+    font-size: 13px;
+    color: lightgray;
+}
+
+.user-profile div h2 {
+    position: relative;
+    top: 13px;
+    font-size: 30px;
+    color: #edeeeb;
+}
+
+.user-other-details {
+    padding: 2px;
+    margin-top: 7px;
+}
+
+.user-other-details p {
+    color: #ccc7bf;
+    margin-top: 8px;
+    font-size: 15px;
+}
