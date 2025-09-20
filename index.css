@@ -1,142 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* style.css */
 body {
-    background: rgb(10, 172, 236);
-    font-family: 'Space Mono', monospace;
-}
 
-.container {
-    padding: 20px;
-    width: 360px;
-    background: rgb(45, 6, 6);
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.search-box {
-    padding: 10px;
-    height: 50px;
-    width: 100%;
-    border-radius: 30px;
-    border: 1px solid lightgray;
+    background-color: rgb(250, 240, 240);
+    color: #c9d1d9;
+    font-family: 'Segoe UI', sans-serif;
     display: flex;
-    align-items: center;
-}
-
-.search-box i {
-    color: aquamarine;
-    margin-left: 10px;
-    font-size: 16px;
-}
-
-.search-box input {
-    all: unset;
-    height: 50px;
-    width: 100%;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 15px;
-    padding-left: 10px;
-    word-spacing: -3px;
-}
-
-.user-details {
-    padding: 2px;
-    margin-top: 25px;
-}
-
-.img-box {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 100%;
-    float: left;
+    align-items: center;
+    height: 100vh;
 }
 
-.img-box img {
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
+.card {
+    background-color: #161b22;
+    border-radius: 12px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-.name {
-    position: relative;
-    left: 13px;
-    font-size: 13px;
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-color: #21262d;
+    color: #c9d1d9;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #238636;
     color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-.username {
-    position: relative;
-    left: 13px;
-    font-size: 13px;
-    color: aqua;
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.join-date {
-    position: relative;
-    left: 11px;
-    font-size: 13px;
-    color: #ccc7bf;
-    margin-top: 10px;
+.profile-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #21262d;
 }
 
-.bio {
-    position: relative;
-    margin-top: 32px;
-    color: #ccc7bf;
-    margin-left: 10px;
-    font-size: 14px;
+.profile-info h2 {
+    margin: 0;
+    font-size: 1.5em;
 }
 
-.user-profile {
-    padding: 2px;
-    height: 100px;
-    width: 100%;
-    margin-top: 24px;
-    border-radius: 3px;
-    background: #3E96F4;
+.profile-info .handle,
+.profile-info .date,
+.profile-info .tagline {
+    font-size: 0.9em;
+    color: #8b949e;
+    margin: 2px 0;
+}
+
+.stats {
     display: flex;
     justify-content: space-between;
+    background-color: #238636;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0;
+    color: white;
+    font-weight: bold;
 }
 
-.user-profile div {
-    width: 33%;
-    text-align: center;
+.stats div span {
+    display: block;
+    font-size: 0.8em;
+    font-weight: normal;
 }
 
-.user-profile div span {
-    position: relative;
-    top: 14px;
-    font-size: 13px;
-    color: lightgray;
+.details p {
+    margin: 5px 0;
+    font-size: 0.9em;
 }
 
-.user-profile div h2 {
-    position: relative;
-    top: 13px;
-    font-size: 30px;
-    color: #edeeeb;
-}
-
-.user-other-details {
-    padding: 2px;
-    margin-top: 7px;
-}
-
-.user-other-details p {
-    color: #ccc7bf;
-    margin-top: 8px;
-    font-size: 15px;
+.details a {
+    color: #58a6ff;
+    text-decoration: none;
 }

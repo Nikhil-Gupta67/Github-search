@@ -2,43 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Profile Finder</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-    <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-    <div class="container">
-        <div class="search-box">
-            <i class="fa-brands fa-searchengin"></i>
-            <input type="text" placeholder="Search your GitHub username" />
-        </div>
-        <div class="info-box"></div>
-    </div>
-
-    <script src="index.js"></script>
-</body>
-
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GitHub Profile Finder</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <title>GitHub Profile Search</title>
   <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-  <div class="container">
-    <div class="search-box">
-      <i class="fa-brands fa-searchengin"></i>
-      <input type="text" placeholder="Search your GitHub username" />
+  <div class="card">
+    <div class="search-bar">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub username..." />
+      <button onclick="searchUser()">Search</button>
     </div>
-    <div class="info-box"></div>
+    <div class="profile-header">
+      <img id="avatar" src="github.webp" alt="Avatar" />
+      <div class="profile-info">
+        <h2 id="name">Name</h2>
+        <p class="handle" id="handle">@handle</p>
+        <p class="date" id="date">Created: YYYY-MM-DD</p>
+        <p class="tagline" id="bio">Bio goes here</p>
+      </div>
+    </div>
+    <div class="stats">
+      <div id="repos">0<br /><span>Repos</span></div>
+      <div id="followers">0<br /><span>Followers</span></div>
+      <div id="following">0<br /><span>Following</span></div>
+    </div>
+    <div class="details">
+      <p id="company">Company: N/A</p>
+      <p id="location">📍 Location: N/A</p>
+      <p>🔗 <a id="link" href="#" target="_blank">Profile Link</a></p>
+    </div>
   </div>
 
   <script src="index.js"></script>
 </body>
+
 </html>
