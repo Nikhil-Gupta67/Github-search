@@ -1,8 +1,8 @@
 /* style.css */
 body {
-
-    background-color: rgb(250, 240, 240);
-    color: #c9d1d9;
+    
+    background-color:rgb(250, 240, 240);
+    color: #c9d1d9;        
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
