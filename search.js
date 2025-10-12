@@ -1,7 +1,9 @@
-// script.js
 async function searchUser() {
   const username = document.getElementById('usernameInput').value.trim();
-  if (!username) return;
+  if (!username) {
+    alert('Please enter a GitHub username.');
+    return;
+  }
 
   const url = `https://api.github.com/users/${username}`;
   try {
@@ -24,5 +26,6 @@ async function searchUser() {
     document.getElementById('link').textContent = data.html_url;
   } catch (error) {
     alert('GitHub user not found!');
+    console.error(error);
   }
 }
