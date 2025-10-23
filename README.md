@@ -28,7 +28,8 @@ A simple web application to search for GitHub repositories and display results i
 
 ## Screenshot
 
-![Screenshot](github.webp).
+![Screenshot](github.jpg).
 
 ## License
+
 This project is licensed under the MIT License.
