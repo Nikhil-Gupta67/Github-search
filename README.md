@@ -8,7 +8,7 @@ A simple web application to search for GitHub repositories and display results i
 - Display repository name, description, stars, and link to GitHub
 - Responsive and clean UI
 
-## Files
+## Files--
 
 - `search.html`: Main HTML file for the app
 - `search.css`: Stylesheet for the app
