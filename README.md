@@ -21,7 +21,7 @@ A simple web application to search for GitHub repositories and display results i
 2. Enter a search term in the input box.
 3. View the list of matching GitHub repositories.
 
-## Requirements
+## Requirements--
 
 - Internet connection (to fetch data from GitHub API)
 - Modern web browser
