@@ -30,6 +30,6 @@ A simple web application to search for GitHub repositories and display results i
 
 ![Screenshot](github.jpg).
 
-## License
+## License--
 
 This project is licensed under the MIT License.
