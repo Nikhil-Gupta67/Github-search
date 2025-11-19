@@ -26,7 +26,7 @@ A simple web application to search for GitHub repositories and display results i
 - Internet connection (to fetch data from GitHub API)
 - Modern web browser
 
-## Screenshot
+## Screenshot--
 
 ![Screenshot](github.jpg).
 
