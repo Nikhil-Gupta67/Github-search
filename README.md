@@ -32,4 +32,4 @@ A simple web application to search for GitHub repositories and display results i
 
 ## License--
 
--This project is licensed under the MIT License.-
+-This project is licensed under the MIT License.
