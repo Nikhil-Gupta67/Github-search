@@ -15,7 +15,7 @@ A simple web application to search for GitHub repositories and display results i
 - `search.js`: JavaScript logic for fetching and displaying search results
 - `github.webp`: Logo or image used in the app
 
-## Usage--
+## Usage
 
 1. Open `search.html` in your browser.
 2. Enter a search term in the input box.
