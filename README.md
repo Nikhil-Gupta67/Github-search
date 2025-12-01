@@ -2,7 +2,7 @@
 
 A simple web application to search for GitHub repositories and display results in a user-friendly interface.
 
-## Features--
+## Features
 
 - Search for GitHub repositories by keyword
 - Display repository name, description, stars, and link to GitHub
