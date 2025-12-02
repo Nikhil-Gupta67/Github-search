@@ -1,4 +1,4 @@
-# GitHub Search-
+# GitHub Search
 
 A simple web application to search for GitHub repositories and display results in a user-friendly interface.
 
